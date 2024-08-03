@@ -36,11 +36,11 @@ module.exports = {
   ERROR_MSG: toBool(process.env.ERROR_MSG) || true,
   WELCOME_MSG: process.env.WELCOME_MSG || "Hi &mention Welcome to &gname",
   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi $mention It was Nice Seeing you",
-  MEDIA_DATA: process.env.MEDIA_DATA|| 'ʟɪꜱᴛ ᴍᴇɴᴜ;♡⁠‿⁠♡-ᴍᴅ;https://i.imgur.com/ltPPMTh.jpeg',
+  MEDIA_DATA: process.env.MEDIA_DATA|| 'ʟɪꜱᴛ ᴍᴇɴᴜ;♡⁠‿⁠♡-ᴍᴅ;https://i.imgur.com/c791Fqb.mp4',
   SUDO: process.env.SUDO || '919832962298',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || '',
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || '',
-  BOT_INFO: process.env.BOT_INFO || 'ᴊᴀʀᴠɪꜱ;ʟᴏᴋɪ-xᴇʀ;https://i.imgur.com/VIpl3q5.mp4',
+  BOT_INFO: process.env.BOT_INFO || '♪♪♪;—♪♪♪ 𝐎𝐆𝐆𝐘••• ♥️🧿🌼;https://i.imgur.com/c791Fqb.mp4',
   WORK_TYPE: process.env.WORK_TYPE || 'public',
   DATABASE: DATABASE_URL === "./database.db" ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: false }) : new Sequelize(DATABASE_URL, {dialect: "postgres", ssl: true, protocol: "postgres", dialectOptions: { native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false }),
 };
